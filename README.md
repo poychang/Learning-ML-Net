@@ -3,17 +3,31 @@
 ## 機器學習任務類型
 
 - 二元分類 Binary classification
+  - `MLContext.BinaryClassification`
   - 將提供的資料集分類成兩組，並預測資料是屬於哪一組
 - 多元分類 Multi-class classification
+  - `MLContext.MulticlassClassification`
   - 將提供的資料及分類成多組，並預測資料是屬於哪一組
 - 回歸 Regression
+  - `MLContext.Regression`
   - 利用所提供的資料集建立一組可以表示該資料集的函數，常用於預測趨勢
 - 推薦 Recommendation
 - 集群 Clustering
+  - `MLContext.Clustering`
   - 探索資料集中的群聚，將彼此相似的數據做歸類
 - 異常檢測 Anomaly detection
 - 排名 Ranking
+  - `MLContext.Ranking`
 - 深度學習 Deep Learning
+
+### 基本任務
+
+- 資料載入
+  - `MLContext.Data`, 載入資料或Data loading and saving
+- 資料處理
+  - `MLContext.Transforms`, Data processing operations
+- 模型操作
+  - `MLContext.Model`, Operation with trained models
 
 ## 機器學習專案的基本流程
 
