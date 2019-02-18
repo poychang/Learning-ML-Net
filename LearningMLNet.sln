@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisPredictionTutorial", "IrisPredictionTutorial\IrisPredictionTutorial.csproj", "{BAE2C44C-4C37-469D-B6FE-234552C13E56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.csproj", "{743353A5-94E1-4835-A099-9878889F3870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.csproj", "{743353A5-94E1-4835-A099-9878889F3870}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Binary Classification", "Binary Classification", "{247E7BCF-9415-4C48-995A-E6DFEF3018A8}"
 EndProject
@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ranking", "Ranking", "{47AE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deep Learning", "Deep Learning", "{B13B768E-0E2B-4807-AF94-B9B62530E05F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{B1C69F72-556D-4ED9-9D79-BD94698736D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{B1C69F72-556D-4ED9-9D79-BD94698736D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "!Document", "!Document", "{FC738436-1F87-4886-BEB1-DB097E6E9588}"
 	ProjectSection(SolutionItems) = preProject
@@ -53,6 +53,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{BAE2C44C-4C37-469D-B6FE-234552C13E56} = {6BAF6400-2FD9-4A21-9F18-98E78B65FF85}
 		{743353A5-94E1-4835-A099-9878889F3870} = {247E7BCF-9415-4C48-995A-E6DFEF3018A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
