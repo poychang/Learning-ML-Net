@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IrisPredictionTutorial", "IrisPredictionTutorial\IrisPredictionTutorial.csproj", "{BAE2C44C-4C37-469D-B6FE-234552C13E56}"
 EndProject
@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "!Document", "!Document", "{
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineQuality", "WineQuality\WineQuality.csproj", "{48FCA5A2-4C11-4328-927B-D49E3E604486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{B1C69F72-556D-4ED9-9D79-BD94698736D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1C69F72-556D-4ED9-9D79-BD94698736D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1C69F72-556D-4ED9-9D79-BD94698736D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FCA5A2-4C11-4328-927B-D49E3E604486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FCA5A2-4C11-4328-927B-D49E3E604486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FCA5A2-4C11-4328-927B-D49E3E604486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FCA5A2-4C11-4328-927B-D49E3E604486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BAE2C44C-4C37-469D-B6FE-234552C13E56} = {6BAF6400-2FD9-4A21-9F18-98E78B65FF85}
 		{743353A5-94E1-4835-A099-9878889F3870} = {247E7BCF-9415-4C48-995A-E6DFEF3018A8}
+		{48FCA5A2-4C11-4328-927B-D49E3E604486} = {6BAF6400-2FD9-4A21-9F18-98E78B65FF85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46D30FE3-97A7-40FC-93FF-17BC24CE68CC}
